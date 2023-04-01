@@ -57,7 +57,7 @@ function differenceWords(&$words, $maxLength)
         }
     }
 }
-$words = array('Agent', 'Picture', "Self", 'Father', 'Buyer', 'Sentence');           // Задание ;6
+$words = array('Agent', 'Picture', "Self", 'Father', 'Buyer', 'Sentence');           // Задание №6
 differenceWords($words, 5);
 print_r($words);
 
