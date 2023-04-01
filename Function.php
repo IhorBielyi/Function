@@ -16,26 +16,26 @@ $filteredNumbers = filterArray($numbers, function ($num) {
 echo "<pre>";
 print_r($filteredNumbers);
 echo "<pre>";
-echo "<hr><br>";
+echo "<hr><br>";                                                          // Задание №1
 
-/*
+
 $difference = fn($a, $b) => $a - $b;
 echo $difference(5, 2);
-echo "<hr><br>";
+echo "<hr><br>";                                                         // Задание №2
 
 
 $string = 'hello world!';
 $upperCase = fn($string) => ucfirst($string);
 echo $upperCase;
-echo "<hr><br>";
+echo "<hr><br>";                                                         // Задание №3
 
 
 $makeUpperCase = fn($a) => ucfirst($a);
 $array = ['toyota', 'lamborghini', 'bentley','mercedes'];
 $newArray = array_map($makeUpperCase, $array);
 print_r($newArray);
-echo "<hr><br>";
-*/
+echo "<hr><br>";                                                        // Задание №4
+
 function multuply (&$array, $multiplier)
 {
     foreach ($array as &$value) {
@@ -46,9 +46,10 @@ $array = array(2, 4, 6, 8, 10);
 $multiplier = 3;
 multuply($array, $multiplier);
 print_r($array);
-echo "<hr><br>";
+echo "<hr><br>";                                                       // Задание №5
 
-function differenceWords(&$words, $maxLength) {
+function differenceWords(&$words, $maxLength)
+{
     for ($i = 0; $i < count($words); $i++) {
         if (strlen($words[$i]) > $maxLength) {
             array_splice($words, $i, 1);
@@ -56,12 +57,12 @@ function differenceWords(&$words, $maxLength) {
         }
     }
 }
-$words = array('Agent', 'Picture', "Self", 'Father', 'Buyer', 'Sentence');
+$words = array('Agent', 'Picture', "Self", 'Father', 'Buyer', 'Sentence');           // Задание ;6
 differenceWords($words, 5);
 print_r($words);
 
 
-echo "Hello world";
+
 
 
 
