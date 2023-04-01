@@ -18,25 +18,23 @@ print_r($filteredNumbers);
 echo "<pre>";
 echo "<hr><br>";
 
-/*
+
 $difference = fn($a, $b) => $a - $b;
 echo $difference(5, 2);
 echo "<hr><br>";
-*/
 
-/*
+
 $string = 'hello world!';
 $upperCase = fn($string) => ucfirst($string);
 echo $upperCase;
 echo "<hr><br>";
-*/
-/*
+
+
 $makeUpperCase = fn($a) => ucfirst($a);
 $array = ['toyota', 'lamborghini', 'bentley','mercedes'];
 $newArray = array_map($makeUpperCase, $array);
 print_r($newArray);
 echo "<hr><br>";
-*/
 
 function multuply (&$array, $multiplier)
 {
