@@ -18,7 +18,7 @@ print_r($filteredNumbers);
 echo "<pre>";
 echo "<hr><br>";
 
-
+/*
 $difference = fn($a, $b) => $a - $b;
 echo $difference(5, 2);
 echo "<hr><br>";
@@ -35,7 +35,7 @@ $array = ['toyota', 'lamborghini', 'bentley','mercedes'];
 $newArray = array_map($makeUpperCase, $array);
 print_r($newArray);
 echo "<hr><br>";
-
+*/
 function multuply (&$array, $multiplier)
 {
     foreach ($array as &$value) {
@@ -61,7 +61,7 @@ differenceWords($words, 5);
 print_r($words);
 
 
-
+echo "Hello world";
 
 
 
